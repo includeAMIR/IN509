@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A642724021D7F3DF00A793A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A642723F21D7F3DF00A793A6 /* main.cpp */; };
+		A642725021D8098900A793A6 /* Personnage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A642724E21D8098900A793A6 /* Personnage.cpp */; };
+		A642725321D80EA100A793A6 /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A642725121D80EA100A793A6 /* Position.cpp */; };
+		A642725621D81DD900A793A6 /* Joueur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A642725421D81DD900A793A6 /* Joueur.cpp */; };
+		A6D5735921DBEA380048AE03 /* NonJoueur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6D5735721DBEA380048AE03 /* NonJoueur.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A642723C21D7F3DF00A793A6 /* IN509 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IN509; sourceTree = BUILT_PRODUCTS_DIR; };
+		A642723F21D7F3DF00A793A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A642724E21D8098900A793A6 /* Personnage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Personnage.cpp; sourceTree = "<group>"; };
+		A642724F21D8098900A793A6 /* Personnage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Personnage.hpp; sourceTree = "<group>"; };
+		A642725121D80EA100A793A6 /* Position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
+		A642725221D80EA100A793A6 /* Position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Position.hpp; sourceTree = "<group>"; };
+		A642725421D81DD900A793A6 /* Joueur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Joueur.cpp; sourceTree = "<group>"; };
+		A642725521D81DD900A793A6 /* Joueur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Joueur.hpp; sourceTree = "<group>"; };
+		A6D5735721DBEA380048AE03 /* NonJoueur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NonJoueur.cpp; sourceTree = "<group>"; };
+		A6D5735821DBEA380048AE03 /* NonJoueur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonJoueur.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A642723A21D7F3DF00A793A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A642723421D7F3DF00A793A6 = {
+			isa = PBXGroup;
+			children = (
+				A642723E21D7F3DF00A793A6 /* IN509 */,
+				A642723D21D7F3DF00A793A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A642723D21D7F3DF00A793A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A642723C21D7F3DF00A793A6 /* IN509 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A642723E21D7F3DF00A793A6 /* IN509 */ = {
+			isa = PBXGroup;
+			children = (
+				A642723F21D7F3DF00A793A6 /* main.cpp */,
+				A642724E21D8098900A793A6 /* Personnage.cpp */,
+				A642724F21D8098900A793A6 /* Personnage.hpp */,
+				A642725121D80EA100A793A6 /* Position.cpp */,
+				A642725221D80EA100A793A6 /* Position.hpp */,
+				A642725521D81DD900A793A6 /* Joueur.hpp */,
+				A642725421D81DD900A793A6 /* Joueur.cpp */,
+				A6D5735721DBEA380048AE03 /* NonJoueur.cpp */,
+				A6D5735821DBEA380048AE03 /* NonJoueur.hpp */,
+			);
+			path = IN509;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A642723B21D7F3DF00A793A6 /* IN509 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A642724821D7F3DF00A793A6 /* Build configuration list for PBXNativeTarget "IN509" */;
+			buildPhases = (
+				A642723921D7F3DF00A793A6 /* Sources */,
+				A642723A21D7F3DF00A793A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IN509;
+			productName = IN509;
+			productReference = A642723C21D7F3DF00A793A6 /* IN509 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A642723521D7F3DF00A793A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sll;
+				TargetAttributes = {
+					A642723B21D7F3DF00A793A6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A642723821D7F3DF00A793A6 /* Build configuration list for PBXProject "IN509" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A642723421D7F3DF00A793A6;
+			productRefGroup = A642723D21D7F3DF00A793A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A642723B21D7F3DF00A793A6 /* IN509 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A642723921D7F3DF00A793A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A642724021D7F3DF00A793A6 /* main.cpp in Sources */,
+				A642725621D81DD900A793A6 /* Joueur.cpp in Sources */,
+				A642725021D8098900A793A6 /* Personnage.cpp in Sources */,
+				A642725321D80EA100A793A6 /* Position.cpp in Sources */,
+				A6D5735921DBEA380048AE03 /* NonJoueur.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A642724621D7F3DF00A793A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		A642724721D7F3DF00A793A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		A642724921D7F3DF00A793A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A642724A21D7F3DF00A793A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A642723821D7F3DF00A793A6 /* Build configuration list for PBXProject "IN509" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642724621D7F3DF00A793A6 /* Debug */,
+				A642724721D7F3DF00A793A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A642724821D7F3DF00A793A6 /* Build configuration list for PBXNativeTarget "IN509" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642724921D7F3DF00A793A6 /* Debug */,
+				A642724A21D7F3DF00A793A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A642723521D7F3DF00A793A6 /* Project object */;
+}
