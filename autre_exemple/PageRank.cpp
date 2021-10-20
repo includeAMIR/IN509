@@ -446,13 +446,11 @@ void test_convergence_random_surfer(  Node **nodes, double *vector ){
     timeval curTime;
     gettimeofday(&curTime, NULL);
     int m1 = curTime.tv_usec / 1000;
-    time_t t1 = std::time(0);
 
 
     gettimeofday(&curTime, NULL);
     int m2 = curTime.tv_usec / 1000;
-    time_t t2 = std::time(0);
-    cout << "it tooks "<<m2 - m1 << " ms to create matrix / " << t2-t1 << " s\n";
+    cout << "it tooks "<<m2 - m1 << " ms to create matrix / " << " s\n";
 
 
     double *result1 = random_surfer_multiplication(nodes, vector);
@@ -461,7 +459,6 @@ void test_convergence_random_surfer(  Node **nodes, double *vector ){
 
     gettimeofday(&curTime, NULL);
     m1 = curTime.tv_usec / 1000;
-    t1 = std::time(0);
 
      while (1) {
 
@@ -492,8 +489,7 @@ void test_convergence_random_surfer(  Node **nodes, double *vector ){
 
     gettimeofday(&curTime, NULL);
     m2 = curTime.tv_usec / 1000;
-    t2 = std::time(0);
-    cout << "it tooks "<<m2 - m1 << " ms to converge / " << t2-t1 << " s\n";
+    cout << "it tooks "<<m2 - m1 << " ms to converge /   s\n";
 
 }
 
@@ -541,7 +537,6 @@ void test_convergence_creuse_extrapolation(Node **nodes, double *vector, int m){
     timeval curTime;
     gettimeofday(&curTime, NULL);
     int m1 = curTime.tv_usec / 1000;
-    time_t t1 = std::time(0);
 
     while (1) {
 
@@ -581,8 +576,7 @@ void test_convergence_creuse_extrapolation(Node **nodes, double *vector, int m){
     if(count < limite){
         gettimeofday(&curTime, NULL);
         int m2 = curTime.tv_usec / 1000;
-        time_t t2 = std::time(0);
-        cout << "\tit tooks "<<m2 - m1 << " ms to converge / " << t2-t1 << " s\n";
+        cout << "\tit tooks "<<m2 - m1 << " ms to converge / " << " s\n";
     }
 
 }
