@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
     cin >> file_name;
 
 
-    inFile.open("/Users/tokarev/Documents/programmes/methode_ranking/projet/ranking/"+file_name);
+    inFile.open("le chemin vers tonn fichier juste ici"+file_name);
 
     if (!inFile) {
        cout << "Unable to open file\n";
